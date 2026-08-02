@@ -18,7 +18,18 @@ A RESTful API built using Spring Boot for managing personal expenses. This proje
 - Swagger/OpenAPI Documentation
 
 ---
+## Key Highlights
 
+- Implemented complete CRUD operations for expense management.
+- Created REST endpoints to add, retrieve, update, and delete expenses.
+- Added endpoints to calculate the total expenses and category-wise expense summary.
+- Used Bean Validation to validate user input (required fields, positive amount, valid date).
+- Implemented Global Exception Handling to return meaningful error responses with appropriate HTTP status codes (e.g., 400 Bad Request, 404 Not Found).
+- Added custom exception handling for resources that do not exist.
+- Configured Swagger/OpenAPI for interactive API documentation and testing.
+- Tested all endpoints using Postman to verify successful and error scenarios.
+
+---
 ## Technologies Used
 
 - Java 21
