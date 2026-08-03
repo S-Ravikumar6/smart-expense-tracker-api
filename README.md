@@ -122,68 +122,67 @@ http://localhost:8080/swagger-ui/index.html
 ---
 # 📷 API Demonstration
 
-## Swagger UI
+## 1. Swagger UI
 
-Interactive API documentation with all available endpoints.
+Interactive API documentation for exploring and testing all available REST endpoints.
 
-![Swagger UI](screenshots/swagger-ui.jpeg)
-
----
-
-## Add Expense (POST)
-
-Creates a new expense and returns **201 Created**.
-
-![POST](screenshots/postman-add-expences.png)
+![Swagger UI](screenshots/Swagger-ui.jpeg)
 
 ---
 
-## Get All Expenses (GET)
+## 2. Add Expense (POST)
 
-Returns the complete list of expenses.
+Creates a new expense and returns the created resource with **HTTP 201 Created**.
 
-![GET ALL](screenshots/postman-all-expences.png)
-
----
-
-## Get Expense By ID (GET)
-
-Retrieves a specific expense using its ID.
-
-![GET BY ID](screenshots/postman-get.png)
+![Add Expense](screenshots/postman-add%20expences.png)
 
 ---
 
-## Update Expense (PUT)
+## 3. Get All Expenses (GET)
 
-Updates an existing expense.
+Retrieves the complete list of expenses stored in the application.
 
-![PUT](screenshots/postman-update.png)
-
----
-
-## Delete Expense (DELETE)
-
-Deletes an expense successfully.
-
-![DELETE](screenshots/postman-delete.png)
+![Get All Expenses](screenshots/postman-all%20expences.png)
 
 ---
 
-## Category Summary
+## 4. Get Expense by ID (GET)
 
-Returns total expenses grouped by category.
+Fetches a specific expense using its unique expense ID.
 
-![CATEGORY](screenshots/postman-category-summary.png)
+![Get Expense by ID](screenshots/postman-get.png)
 
 ---
 
-## Total Expenses
+## 5. Update Expense (PUT)
 
-Calculates the total amount of all recorded expenses.
+Updates the details of an existing expense and returns the updated record.
 
-![TOTAL](screenshots/postman-total-expences.png)
+![Update Expense](screenshots/postman-update.png)
 
+---
+
+## 6. Delete Expense (DELETE)
+
+Deletes an existing expense successfully and confirms the operation.
+
+![Delete Expense](screenshots/postman-delete.png)
+
+---
+
+## 7. Category Summary
+
+Displays the total expenses grouped by category for quick spending analysis.
+
+![Category Summary](screenshots/postman-category%20summary.png)
+
+---
+
+## 8. Total Expenses
+
+Calculates and returns the overall total of all recorded expenses.
+
+![Total Expenses](screenshots/postman-total%20expences.png)
 ---
 ## Author
 
