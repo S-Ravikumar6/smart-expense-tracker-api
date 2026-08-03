@@ -120,7 +120,71 @@ http://localhost:8080/swagger-ui/index.html
 ```
 
 ---
+# 📷 API Demonstration
 
+## Swagger UI
+
+Interactive API documentation with all available endpoints.
+
+![Swagger UI](screenshots/swagger-ui.jpeg)
+
+---
+
+## Add Expense (POST)
+
+Creates a new expense and returns **201 Created**.
+
+![POST](screenshots/postman-add-expences.png)
+
+---
+
+## Get All Expenses (GET)
+
+Returns the complete list of expenses.
+
+![GET ALL](screenshots/postman-all-expences.png)
+
+---
+
+## Get Expense By ID (GET)
+
+Retrieves a specific expense using its ID.
+
+![GET BY ID](screenshots/postman-get.png)
+
+---
+
+## Update Expense (PUT)
+
+Updates an existing expense.
+
+![PUT](screenshots/postman-update.png)
+
+---
+
+## Delete Expense (DELETE)
+
+Deletes an expense successfully.
+
+![DELETE](screenshots/postman-delete.png)
+
+---
+
+## Category Summary
+
+Returns total expenses grouped by category.
+
+![CATEGORY](screenshots/postman-category-summary.png)
+
+---
+
+## Total Expenses
+
+Calculates the total amount of all recorded expenses.
+
+![TOTAL](screenshots/postman-total-expences.png)
+
+---
 ## Author
 
 **S Ravikumar**
