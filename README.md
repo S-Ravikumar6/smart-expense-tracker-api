@@ -41,6 +41,15 @@ A RESTful API built using Spring Boot for managing personal expenses. This proje
 
 ---
 
+![Java](https://img.shields.io/badge/Java-21-orange)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-4.x-brightgreen)
+![Maven](https://img.shields.io/badge/Maven-Build-red)
+![Swagger](https://img.shields.io/badge/API-Swagger-green)
+![Postman](https://img.shields.io/badge/Tested-Postman-orange)
+![GitHub](https://img.shields.io/badge/GitHub-Repository-black)
+
+---
+
 ## Project Structure
 
 src
